@@ -141,7 +141,7 @@ barba.init({
     namespace: 'sitesforstudents',
     beforeEnter({next}) {
       let script = document.createElement('script');
-      script.src = '/static/sitesforstudents_js.js';
+      script.src = 'sitesforstudents_js.js';
       next.container.appendChild(script);
     }
 
@@ -149,14 +149,14 @@ barba.init({
       namespace: 'leonardo',
       beforeEnter({next}) {
         let script = document.createElement('script');
-        script.src = '/static/leonardo_js.js';
+        script.src = 'leonardo_js.js';
         next.container.appendChild(script);
     }
     }, {
       namespace: 'ntu',
       beforeEnter({next}) {
         let script = document.createElement('script');
-        script.src = '/static/sitesforstudents_js.js';
+        script.src = 'sitesforstudents_js.js';
         next.container.appendChild(script);
     }
   }]
