@@ -19,7 +19,7 @@ barba.init({
       if(data.current.url.path == "/"){
         var homeLinks = document.querySelector('.home-links');
 
-        if(data.next.url.path == '/sitesforstudents/'){
+        if(data.next.url.path == '/sfs/'){
           console.log('sfs');
           var links = document.querySelector('.sfs-links');
           var h = window.innerHeight;
@@ -54,7 +54,7 @@ barba.init({
           gsap.from(".desc", 2, {delay: 1, y: 100, stagger: 0.5});
         }
       }
-      else if(data.current.url.path == "/sitesforstudents/"){
+      else if(data.current.url.path == "/sfs/"){
         var sfsLinks = document.querySelector('.sfs-links');
         console.log('sfs');
 
@@ -85,7 +85,7 @@ barba.init({
       else if(data.current.url.path == "/leonardo/"){
         var lLinks = document.querySelector('.l-links');
 
-        if(data.next.url.path == '/sitesforstudents/'){
+        if(data.next.url.path == '/sfs/'){
           var links = document.querySelector('.sfs-links');
           var h = window.innerHeight;
           var p = MotionPathPlugin.getRelativePosition(lLinks, links);
@@ -111,7 +111,7 @@ barba.init({
       else if(data.current.url.path == "/ntu/"){
         var ntuLinks = document.querySelector('.ntu-links');
 
-        if(data.next.url.path == '/sitesforstudents/'){
+        if(data.next.url.path == '/sfs/'){
           console.log('sfs');
           var links = document.querySelector('.sfs-links');
           var h = window.innerHeight;
