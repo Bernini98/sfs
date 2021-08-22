@@ -5,7 +5,7 @@ barba.init({
       if(data.current.url.path == "/"){
         return gsap.to("span", 1, {opacity: 0});
       }
-      else if(data.current.url.path == "/sitesforstudents/"){
+      else if(data.current.url.path == "/sfs/"){
         return gsap.to(".sfs-contnt", 1, {opacity: 0});
       }
       else if(data.current.url.path == "/leonardo/"){
