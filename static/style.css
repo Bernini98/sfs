@@ -1,0 +1,135 @@
+.skill-des {
+  opacity: 0;
+  transition: opacity 1s, visibility 1s;
+}
+
+.skill {
+  transition: transform .3s ease-out;
+}
+
+.skill:hover {
+  transform: translate(0, -5px);
+  opacity: 1;
+}
+
+.logo {
+  transition: transform .3s ease-out;
+}
+
+.logo:hover {
+  transform: translate(0, -5px);
+  opacity: 1;
+}
+
+
+#linkedin {
+  background-color: #2867B2;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+#email {
+  background-color: #B22222;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+#pad {
+  padding: 10px;
+}
+
+#slide-btn {
+  filter: grayscale(100%);
+  opacity: .5;
+  width: 80%;
+  transition: opacity 1s;
+}
+
+#slide-btn:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+.content {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.custom-container {
+margin-left: 80px;
+margin-right: 20px;
+}
+
+.navbar-container {
+margin-left: 40px;
+}
+
+.heading {
+font-size: 5vw;
+}
+
+.carousel-indicators li{
+text-indent:0;
+width:200px;
+height: 40px;
+border:none;
+background-color: transparent;
+margin: auto;
+padding: auto;
+font-size: 12px;
+}
+
+.nav-link {
+color: grey;
+}
+
+.nav-link:hover {
+color: darkgrey;
+}
+
+.slide {
+border-color: darkgrey;
+}
+
+.slide:hover {
+border-color: grey;
+}
+
+#product-listing {
+  font-size: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.temp-home-logo {
+  width: 350px;
+  height: 100px;
+}
+
+#panel-1 {
+  background-color: black;
+}
+
+.skill {
+  width: 50px;
+  height: 50px;
+}
